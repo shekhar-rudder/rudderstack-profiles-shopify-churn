@@ -1,5 +1,5 @@
 inputs:
-  - name: material_rsidentifies_276705f1_12
+  - name: rsIdentifies
     source_metadata:
       role: shopify
       category: webhook
@@ -10,7 +10,7 @@ inputs:
         - user
       with_columns: []
     app_defaults:
-      table: rs_profiles_3.identifies
+      table: material_rspages_4bf3b402_12
       occurred_at_col: timestamp
       ids:
         - select: "user_id"
@@ -22,7 +22,7 @@ inputs:
         - select: "lower(email)"
           type: email
           entity: user
-  - name: material_rspages_4bf3b402_12
+  - name: rsPages
     source_metadata:
       role: shopify
       category: webhook
@@ -33,7 +33,7 @@ inputs:
         - user
       with_columns: []
     app_defaults:
-      table: rs_profiles_3.pages
+      table: material_rspages_4bf3b402_12
       occurred_at_col: timestamp
       ids:
         - select: "user_id"
@@ -42,7 +42,7 @@ inputs:
         - select: "anonymous_id"
           type: anonymous_id
           entity: user
-  - name: material_rstracks_1a475cae_12
+  - name: rsTracks
     source_metadata:
       role: shopify
       category: webhook
@@ -53,7 +53,7 @@ inputs:
         - user
       with_columns: []
     app_defaults:
-      table: rs_profiles_3.tracks
+      table: material_rstracks_1a475cae_12
       occurred_at_col: timestamp
       ids:
         - select: "user_id"
