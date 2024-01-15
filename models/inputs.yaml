@@ -1,5 +1,5 @@
 inputs:
-  - name: rsIdentifies
+  - name: material_rsidentifies_276705f1_12
     source_metadata:
       role: shopify
       category: webhook
@@ -22,7 +22,7 @@ inputs:
         - select: "lower(email)"
           type: email
           entity: user
-  - name: rsPages
+  - name: material_rspages_4bf3b402_12
     source_metadata:
       role: shopify
       category: webhook
@@ -42,7 +42,7 @@ inputs:
         - select: "anonymous_id"
           type: anonymous_id
           entity: user
-  - name: rsTracks
+  - name: material_rstracks_1a475cae_12
     source_metadata:
       role: shopify
       category: webhook
