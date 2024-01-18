@@ -20,6 +20,7 @@ models:
             features_profiles_model: 'shopify_user_features' # Model name
             output_profiles_ml_model: *model_name # Name of output model based on current model to dinstinguish between multiple models
             eligible_users: days_since_account_creation is null or days_since_account_creation >0 #1=1 #days_since_last_purchase is null or days_since_last_purchase > 30
+            inputs: *inputs
             user_preference_order_infra:
               - rudderstack-infra
           preprocessing: &model_prep_configs
