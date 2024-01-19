@@ -10,7 +10,7 @@ inputs:
         - user
       with_columns: []
     app_defaults:
-      table: material_rspages_4bf3b402_12
+      table: identifies
       occurred_at_col: timestamp
       ids:
         - select: "user_id"
@@ -33,7 +33,7 @@ inputs:
         - user
       with_columns: []
     app_defaults:
-      table: material_rspages_4bf3b402_12
+      table: pages
       occurred_at_col: timestamp
       ids:
         - select: "user_id"
@@ -53,7 +53,7 @@ inputs:
         - user
       with_columns: []
     app_defaults:
-      table: material_rstracks_1a475cae_12
+      table: tracks
       occurred_at_col: timestamp
       ids:
         - select: "user_id"
