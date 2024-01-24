@@ -4,7 +4,7 @@ inputs:
       role: shopify
       category: webhook
     contract:
-      is_optional: false
+      is_optional: true
       is_event_stream: true
       with_entity_ids:
         - user
@@ -27,7 +27,7 @@ inputs:
       role: shopify
       category: webhook
     contract:
-      is_optional: false
+      is_optional: true
       is_event_stream: true
       with_entity_ids:
         - user
