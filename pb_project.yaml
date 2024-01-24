@@ -18,8 +18,6 @@ entities:
       - id_served: user_id
         name: user_id_stitched_features
         # default entity traits 360 model
-      - id_served: main_id
-        name: main_id_stitched_features
 
 packages:
   - name: feature_table # Do not modify this. If this changes, it needs to be passed to train.py in the config as package_name: <value> and also in the inputs in python_model
